@@ -1,0 +1,11 @@
+{
+  "platformName": "android",
+  "appium:appPackage": "com.example.automation_test_app",
+  "appium:Activity": "com.example.automation_test_app.MainActivity",
+  "appium:options": {
+    "appPackage": "com.example.automation_test_app",
+    "appActivity": "com.example.automation_test_app.MainActivity",
+    "deviceName": "genericAndroidPhone",
+    "automationName": "uiautomator2"
+  }
+}

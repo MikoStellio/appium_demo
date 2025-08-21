@@ -1,0 +1,47 @@
+{
+  "HOME_ADD_BUTTON": {
+    "id": "Add"
+  },
+  "HOME_TODOITEM_TEXTBOX": {
+    "xpath": "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText/android.widget.EditText"
+  },
+  "HOME_CHARACTERSLEFT_LABEL": {
+    "xpath": "//android.view.View[contains(@content-desc, \"No characters remaining\") or contains(@content-desc, \"characters remaining\")]"
+  },
+  "HOME_EMPTYLIST_LABEL": {
+    "xpath": "//android.view.View[@content-desc=\"empty-state\nNo todos yet. Add one above!\"]"
+  },
+  "HOME_LISTCOUNTER_LABEL": {
+    "xpath": "//android.view.View[contains(@content-desc, \"todo-counter\")]"
+  },
+  "HOME_TODOLIST_LABEL":{
+    "xpath": "//android.view.View[contains(@content-desc, \"todo-text-\")]"
+  },
+  "HOME_SECONDTODOLIST_LABEL":{
+    "xpath": "//android.view.View[contains(@content-desc, \"todo-text-1\")]"
+  },
+  "HOME_FIRSTTODOLIST_CHECKBOX": {
+    "id": "Mark complete, todo-checkbox-0"
+  },
+  "HOME_SECONDTODOLIST_CHECKBOX": {
+    "id": "Mark complete, todo-checkbox-1"
+  },
+  "HOME_FIRSTTODOEDIT_BUTTON" : {
+    "xpath": "//android.widget.Button[@content-desc=\"Edit todo, edit-button-0\"]/android.widget.Button"
+  },
+  "HOME_SECONDTODOEDIT_BUTTON" : {
+    "xpath": "//android.widget.Button[@content-desc=\"Edit todo, edit-button-1\"]/android.widget.Button"
+  },
+  "HOME_SAVEEDIT_BUTTON" : {
+    "id": "Save changes, save-edit-button-0"
+  },
+  "HOME_TODOEDITITEM_TEXTBOX" : {
+    "xpath": "//android.widget.EditText[@text=\"Buy Groceries\"]"
+  },
+  "HOME_FIRSTTODODELETE_BUTTON": {
+    "xpath": "//android.widget.Button[@content-desc=\"Delete todo, delete-button-0\"]/android.widget.Button"
+  },
+  "HOME_SECONDTODODELETE_BUTTON": {
+    "xpath": "//android.widget.Button[@content-desc=\"Delete todo, delete-button-1\"]/android.widget.Button"
+  }
+}
