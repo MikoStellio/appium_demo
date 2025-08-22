@@ -28,6 +28,19 @@ Encountering an error about specification of device UDID can be fixed by adding 
 _behave_package/configs/android_app_config.json_, under _"appium:options":_. _phoneUdid_ can be found when running
 adb devices in the terminal _(make sure adb is set in your PATH)_.
 
+### Automating with real devices/emulators
+To automate devices, these must be done:
+1. Enable developer options
+2. Enable USB debugging
+3. If _disable permission monitoring_ exists in developer options, toggle it on
+
+Real devices must be connected to the machine running the scripts.  
+For emulators, this can be done with Android Studio:
+1. Open a project in Android Studio
+2. Open Running Devices 
+3. Select the API installed with Android Studio (if none, then install an API thru SDK manager/SDK Platforms)
+4. Then setup the phone settings
+
 ### Run run_behave_tests.bat
 From root folder, run behave_package/test_runner/run_behave_tests.bat  
 
