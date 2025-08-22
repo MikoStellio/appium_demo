@@ -5,6 +5,7 @@ interactions.
 ## To get started:
 ### Install the package
 
+pip install git+https://github.com/MikoStellio/appium_demo
 
 ### Install necessary dependencies
 1. npm
