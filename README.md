@@ -2,6 +2,13 @@
 
 This repository contains the demo for automating a test application using Behave tests and Appium for device 
 interactions. This framework only supports **Android** automation only.
+
+To learn more about Behave:  
+https://behave.readthedocs.io/en/stable/  
+
+To learn more about Appium:  
+https://appium.io/docs/en/2.0/
+
 ## To get started:
 ### Clone the repository
 
