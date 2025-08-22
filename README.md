@@ -38,6 +38,7 @@ from root folder, navigate to test_runner directory
 Or you can call behave from root (appium_demo)  
 `behave behave_package/behave/features`  
 
+### Result of the test run
 As logging is not implemented yet, the result of the test run is displayed in the terminal including which test_scenario
 failed and how many scenarios passed.
 
