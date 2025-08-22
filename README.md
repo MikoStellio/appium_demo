@@ -52,13 +52,13 @@ from root folder, navigate to test_runner directory
 Or you can call behave from root (appium_demo)  
 `behave behave_package/behave/features`  
 
-### Result of the test run
-As logging is not implemented yet, the result of the test run is displayed in the terminal including which test_scenario
-failed and how many scenarios passed.
-
 #### Issues with the batch file
 1. Issues with activating the .venv when running the run_behave_tests.bat means the path for calling the .venv is wrong.  
 Set the correct path (usually inside the root of the python project)
 2. Could not see the steps and feature files  
 Modify the path of the `behave appium_demo/behave_package/behave/features -o test_reports/behave_report.txt` for the 
 features to the correct path
+
+### Result of the test run
+As logging is not implemented yet, the result of the test run is displayed in the terminal including which test_scenario
+failed and how many scenarios passed.
