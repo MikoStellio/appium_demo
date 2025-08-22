@@ -22,7 +22,5 @@ pip install git+https://github.com/MikoStellio/appium_demo
 Ensure they are set in the environment PATH
 This framework was not tested in other python versions except 3.12
 
-### pip install requirements.txt in your venv
-
 ### Run testrunner/run_behave_tests.bat
 or you can call behave in your venv
