@@ -35,7 +35,7 @@ Or call the batch file in terminal
 from root folder, navigate to test_runner directory  
 `run_behave_tests.bat`
 
-Or you can call behave from root  
+Or you can call behave from root (appium_demo) 
 `behave behave_package/behave/features`  
 
 #### Issues with the batch file
