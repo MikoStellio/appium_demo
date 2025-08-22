@@ -20,8 +20,9 @@ interactions. This framework only supports **Android** automation only.
    * Android SDK Platform-Tools
 6. appium driver UiAutomator2
 
-Ensure they are set in the environment PATH
-This framework was not tested in other python versions except 3.12
+Ensure they are set in the environment PATH.  
+
+> **Note:** This framework was not tested in other python versions except 3.12.  
 
 The desired capabilities does not include a UDID as it assumes that only 1 Android phone is connected to the machine. 
 Encountering an error about specification of device UDID can be fixed by adding _"udid": "phoneUdid"_ inside the 
