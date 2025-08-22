@@ -5,11 +5,11 @@ interactions. This framework only supports **Android** automation only.
 ## To get started:
 ### Clone the repository
 
-git clone https://github.com/MikoStellio/appium_demo
-pip install .
+`git clone https://github.com/MikoStellio/appium_demo`
+`pip install .`
 
-_If only the packages and not the files:
-pip install git+https://github.com/MikoStellio/appium_demo_
+_If only the packages and not the files:_
+`pip install git+https://github.com/MikoStellio/appium_demo`
 
 ### Install necessary dependencies
 1. npm
@@ -35,4 +35,4 @@ adb devices in the terminal _(make sure adb is set in your PATH)_.
 From root folder, run behave_package/test_runner/run_behave_tests.bat
 
 Or you can call behave from root
-_behave behave_package/behave/features_
+`behave behave_package/behave/features`
