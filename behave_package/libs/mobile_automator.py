@@ -1,10 +1,6 @@
-import time
-from bdb import effective
-
-from libs.locator_reader import LocatorReader
+from behave_package.libs.locator_reader import LocatorReader
 from appium.webdriver.common.appiumby import AppiumBy
-from appium.webdriver.webdriver import WebDriver
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 

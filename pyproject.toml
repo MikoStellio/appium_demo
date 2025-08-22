@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "behave_package"
+version = "0.0.1"
+dependencies = [
+  'Appium-Python-Client==5.2.2',
+  'behave==1.3.1',
+  'psutil==7.0.0',
+  'selenium==4.35.0',
+]
+requires-python = ">=3.12"
+authors = [
+  {name = "Kevin James N. Bernabe", email = "kevinj.bernabe@gmail.com"},
+]
+readme = "README.md"

@@ -3,13 +3,14 @@
 This repository contains the demo for automating a test application using Behave tests and Appium for device 
 interactions.
 ## To get started:
-### Clone the repository
+### Install the package
+
 
 ### Install necessary dependencies
 1. npm
 2. node.js
 3. appium
-4. scrcpy (for streaming - https://github.com/Genymobile/scrcpy)
+4. scrcpy (optional - for streaming - https://github.com/Genymobile/scrcpy)
 5. Android Studio and SDKs
    * Android version (for emulators)
    * Android SDK Build-Tools
@@ -17,7 +18,8 @@ interactions.
    * Android SDK Platform-Tools
 6. appium driver UiAutomator2
 
-ensure they are set in the environment PATH
+Ensure they are set in the environment PATH
+This framework was not tested in other python versions except 3.12
 
 ### pip install requirements.txt in your venv
 

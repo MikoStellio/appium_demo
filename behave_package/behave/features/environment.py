@@ -1,6 +1,6 @@
-from libs.driver_manager import DriverManager
-from libs.mobile_automator import MobileAutomator
-from libs.my_product import MyProduct
+from behave_package.libs.driver_manager import DriverManager
+from behave_package.libs.mobile_automator import MobileAutomator
+from behave_package.libs.my_product import MyProduct
 
 
 def before_all(context):
