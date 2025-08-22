@@ -32,7 +32,14 @@ _behave_package/configs/android_app_config.json_, under _"appium:options":_. _ph
 adb devices in the terminal _(make sure adb is set in your PATH)_.
 
 ### Run run_behave_tests.bat
-From root folder, run behave_package/test_runner/run_behave_tests.bat
+From root folder, run behave_package/test_runner/run_behave_tests.bat  
 
-Or you can call behave from root
-`behave behave_package/behave/features`
+Or call the batch file in terminal  
+from root folder, navigate to test_runner directory  
+`run_behave_tests.bat`
+
+Or you can call behave from root  
+`behave behave_package/behave/features`  
+
+Issues with activating the .venv when running the run_behave_tests.bat means the path for calling the .venv is wrong.
+Set the correct path (usually inside the root of the python project)
