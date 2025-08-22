@@ -8,9 +8,6 @@ interactions. This framework only supports **Android** automation only.
 `git clone https://github.com/MikoStellio/appium_demo`  
 `pip install .`
 
-_If only the packages and not the files:_
-`pip install git+https://github.com/MikoStellio/appium_demo`
-
 ### Install necessary dependencies
 1. npm
 2. node.js
@@ -41,5 +38,9 @@ from root folder, navigate to test_runner directory
 Or you can call behave from root  
 `behave behave_package/behave/features`  
 
-Issues with activating the .venv when running the run_behave_tests.bat means the path for calling the .venv is wrong.
+#### Issues with the batch file
+1. Issues with activating the .venv when running the run_behave_tests.bat means the path for calling the .venv is wrong.  
 Set the correct path (usually inside the root of the python project)
+2. Could not see the steps and feature files  
+Modify the path of the `behave appium_demo/behave_package/behave/features -o test_reports/behave_report.txt` for the 
+features to the correct path
