@@ -8,7 +8,7 @@ interactions. This framework only supports **Android** automation only.
 `git clone https://github.com/MikoStellio/appium_demo`  
 `pip install .`
 
-### Install necessary dependencies
+### Install necessary tools and dependencies to run appium with android
 1. npm
 2. node.js
 3. appium
