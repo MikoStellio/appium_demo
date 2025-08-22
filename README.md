@@ -3,9 +3,13 @@
 This repository contains the demo for automating a test application using Behave tests and Appium for device 
 interactions. This framework only supports **Android** automation only.
 ## To get started:
-### Install the package
+### Clone the repository
 
-pip install git+https://github.com/MikoStellio/appium_demo
+git clone https://github.com/MikoStellio/appium_demo
+pip install .
+
+_If only the packages and not the files:
+pip install git+https://github.com/MikoStellio/appium_demo_
 
 ### Install necessary dependencies
 1. npm
@@ -24,7 +28,7 @@ This framework was not tested in other python versions except 3.12
 
 The desired capabilities does not include a UDID as it assumes that only 1 Android phone is connected to the machine. 
 Encountering an error about specification of device UDID can be fixed by adding _"udid": "phoneUdid"_ inside the 
-_behave_package/configs/android_app_config.json_, under __"appium:options":__. phoneUdid can be found when running
+_behave_package/configs/android_app_config.json_, under _"appium:options":_. _phoneUdid_ can be found when running
 adb devices in the terminal _(make sure adb is set in your PATH)_.
 
 ### Run run_behave_tests.bat
