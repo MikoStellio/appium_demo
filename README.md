@@ -5,8 +5,8 @@ interactions. This framework only supports **Android** automation only.
 ## To get started:
 ### Clone the repository
 
-```git clone https://github.com/MikoStellio/appium_demo`
-`pip install .```
+`git clone https://github.com/MikoStellio/appium_demo`  
+`pip install .`
 
 _If only the packages and not the files:_
 `pip install git+https://github.com/MikoStellio/appium_demo`
